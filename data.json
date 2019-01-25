@@ -1,0 +1,8 @@
+{
+    "genres": [
+        {   "genre": "horror", "niceName": "Horror", "description": "Really scary stuff" },
+        {   "genre": "action", "niceName": "Action", "description": "Sorta scary stuff" },
+        {   "genre": "indie", "niceName": "Indie", "description": "Not scary stuff" },
+        {   "genre": "documentary", "niceName": "Documentaries", "description": "The scariest stuff" }
+    ]
+}
