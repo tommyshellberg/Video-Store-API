@@ -14,11 +14,11 @@ A REST API for a video store using Node, Express, and Mongoose
 
 Here are the available endpoints:
 
-'/api/genres'    - GET, PUT, POST, DELETE movie genres.
-'/api/customers' - GET, PUT, POST, DELETE customers.
-'/api/films'     - GET, PUT, POST, DELETE films.
-‘/api/auth'      - POST to the auth endpoint after registering to get a JWT token. 
-'/api/users'     - GET, PUT, POST, DELETE users. `UserName`, `password`, `email` are required in the request.
+* '/api/genres'    - GET, PUT, POST, DELETE movie genres.
+* '/api/customers' - GET, PUT, POST, DELETE customers.
+* '/api/films'     - GET, PUT, POST, DELETE films.
+* ‘/api/auth'      - POST to the auth endpoint after registering to get a JWT token. 
+* '/api/users'     - GET, PUT, POST, DELETE users. `UserName`, `password`, `email` are required in the request.
 
 ## Usage
 
