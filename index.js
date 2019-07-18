@@ -15,6 +15,8 @@ const users = require('./routes/users')
 const auth = require('./routes/auth')
 const home = require('./routes/home')
 
+const helmet = require('helmet')
+
 // Declare app
 const app = express()
 
@@ -29,6 +31,12 @@ if (!config.get('jwtPrivateKey')) {
 }
 
 //Middleware
+app.use(helmet())
+app.use(helmet.contentSecurityPolicy({
+        directives: {
+                defaultSrc: ["'self'"]
+        }
+}))
 app.use(express.json())
 app.use('/api/genres', genres)
 app.use('/api/customers', customers)
