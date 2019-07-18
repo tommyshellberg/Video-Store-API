@@ -30,8 +30,8 @@ For now, setting a user as an admin is done manually.
 
 ## App structure
 
-/config.     - Config settings, including a variable which links to an environment variable.
-/middleware/ - Custom middleware, including JWT token validation.
-/models/     - Data models for the app(MongoDB schemas and validation).
-/routes/     - Express routes for handling API requests.
-index.js     - the entry point of the app. Execute this using `nodemon index.js` to rebuild when changes are made.
+* /config.     - Config settings, including a variable which links to an environment variable.
+* /middleware/ - Custom middleware, including JWT token validation.
+* /models/     - Data models for the app(MongoDB schemas and validation).
+* /routes/     - Express routes for handling API requests.
+* index.js     - the entry point of the app. Execute this using `nodemon index.js` to rebuild when changes are made.
